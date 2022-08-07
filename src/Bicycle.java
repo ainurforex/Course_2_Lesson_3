@@ -8,4 +8,10 @@ public class Bicycle extends Transport {
         return "Велосипед:" + getModelName() +
                 " Количество колес:" + getWheelsCount();
     }
+
+    public void checkTransport() {
+        for (int i = 0; i < getWheelsCount(); i++) {
+            System.out.println("Меняем покрышку");
+        }
+    }
 }

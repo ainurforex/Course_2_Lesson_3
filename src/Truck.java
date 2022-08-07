@@ -11,7 +11,6 @@ public class Truck extends Transport {
                 " Имеется прицеп.";
     }
 
-    @Override
     public void checkTransport() {
         for (int i = 0; i < getWheelsCount(); i++) {
             System.out.println("Меняем покрышку");
